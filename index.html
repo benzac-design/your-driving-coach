@@ -18,79 +18,105 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@112,700;112,800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
 <link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js')</script>
 </head>
-<body class="bg-paper text-ink font-body pb-14 md:pb-0">
+<body class="grain bg-paper text-ink font-body pb-14 md:pb-0">
 <a href="#main" class="skip">Skip to content</a>
 
 <header class="sticky top-0 z-30 border-b border-line bg-paper">
-  <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-3">
-    <p class="font-display text-lg font-extrabold leading-none">Your Driving Coach</p>
-    <a href="tel:+61408226842" class="hidden min-h-11 items-center gap-2 bg-accent px-4 font-semibold text-accent-ink hover:brightness-110 md:inline-flex"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>0408 226 842</a>
+  <div class="mx-auto flex max-w-6xl items-center justify-between gap-6 px-5 py-4">
+    <a href="#main" class="inline-flex min-h-11 items-center leading-none font-display text-lg font-extrabold">Your Driving Coach</a>
+    <nav aria-label="Main" class="hidden items-center gap-8 md:flex"><a href="#lessons" class="navlink inline-flex min-h-11 min-w-11 items-center justify-center text-ink hover:text-accent">Lessons</a><a href="#reviews" class="navlink inline-flex min-h-11 min-w-11 items-center justify-center text-ink hover:text-accent">Reviews</a><a href="#book" class="navlink inline-flex min-h-11 min-w-11 items-center justify-center text-ink hover:text-accent">Book</a>
+      <a href="tel:+61408226842" class="inline-flex min-h-11 items-center gap-2 px-4 font-semibold transition-colors duration-200 bg-accent text-accent-ink hover:brightness-110"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>0408 226 842</a>
+    </nav>
   </div>
 </header>
 <main id="main">
-<section class="relative isolate flex min-h-[86svh] items-end bg-road">
+<section class="relative isolate flex min-h-[88svh] items-end bg-road">
   <img src="img/p0-800.webp" srcset="img/p0-800.webp 800w, img/p0-1600.webp 1600w" sizes="100vw" width="1600" height="2134" alt="A young driver holding her new P plate beside the car" class="absolute inset-0 -z-10 h-full w-full object-cover" style="object-position:50% 35%" fetchpriority="high">
-  <div class="absolute inset-0 -z-10 bg-gradient-to-t from-black/85 via-black/45 to-black/0" aria-hidden="true"></div>
-  <div class="mx-auto w-full max-w-6xl px-5 pb-12 text-white sm:pb-16">
+  <div class="absolute inset-0 -z-10 bg-gradient-to-t from-black/90 via-black/45 to-black/0" aria-hidden="true"></div>
+  <div class="hero-in mx-auto w-full max-w-6xl px-5 pb-28 text-white sm:pb-32">
     <p class="font-semibold"><span class="text-amber-300"><span class="inline-flex gap-0.5" aria-hidden="true"><svg viewBox="0 0 20 20" aria-hidden="true" class="h-[1em] w-[1em] fill-current"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9L10 14.9l-5.2 2.8 1-5.9L1.5 7.7l5.9-.8z"/></svg><svg viewBox="0 0 20 20" aria-hidden="true" class="h-[1em] w-[1em] fill-current"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9L10 14.9l-5.2 2.8 1-5.9L1.5 7.7l5.9-.8z"/></svg><svg viewBox="0 0 20 20" aria-hidden="true" class="h-[1em] w-[1em] fill-current"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9L10 14.9l-5.2 2.8 1-5.9L1.5 7.7l5.9-.8z"/></svg><svg viewBox="0 0 20 20" aria-hidden="true" class="h-[1em] w-[1em] fill-current"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9L10 14.9l-5.2 2.8 1-5.9L1.5 7.7l5.9-.8z"/></svg><svg viewBox="0 0 20 20" aria-hidden="true" class="h-[1em] w-[1em] fill-current"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9L10 14.9l-5.2 2.8 1-5.9L1.5 7.7l5.9-.8z"/></svg></span></span> <span class="ml-2">5.0 from 67 Google reviews</span></p>
-    <h1 class="mt-3 max-w-3xl font-display text-[2.5rem] font-extrabold leading-[1.02] sm:text-6xl lg:text-7xl">Calm lessons for nervous learners.</h1>
-    <p class="mt-4 max-w-xl text-lg text-white">David coaches learner drivers around Cronulla, right up to P&#x27;s test day. Teens like him. Parents trust him. 67 five-star Google reviews.</p>
-    <div class="flex flex-wrap gap-3 mt-7">
-  <a href="sms:+61408226842?&body=Hi%20David%2C%20I%27d%20like%20to%20book%20a%20driving%20lesson." class="inline-flex min-h-12 items-center justify-center gap-2 px-6 py-3 font-semibold transition-colors duration-200 cursor-pointer bg-accent text-accent-ink hover:brightness-110"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Text David to book</a>
-  <a href="tel:+61408226842" class="inline-flex min-h-12 items-center justify-center gap-2 px-6 py-3 font-semibold transition-colors duration-200 cursor-pointer border-2 border-white text-white hover:bg-white hover:text-ink"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>Call 0408 226 842</a>
+    <h1 class="mt-4 max-w-4xl font-display font-extrabold leading-[0.98] tracking-tight text-[clamp(2.6rem,7vw,6rem)]">Calm lessons for nervous learners.</h1>
+    <p class="mt-5 max-w-xl text-lg text-white">David coaches learner drivers around Cronulla, right up to P&#x27;s test day. Teens like him. Parents trust him. 67 five-star Google reviews.</p>
+    <div class="flex flex-wrap gap-3 mt-8">
+  <a href="sms:+61408226842?&body=Hi%20David%2C%20I%27d%20like%20to%20book%20a%20driving%20lesson." class="btn inline-flex min-h-12 items-center justify-center gap-2 px-6 py-3 font-semibold transition-colors duration-200 cursor-pointer bg-accent text-accent-ink hover:brightness-110"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Text David to book<svg viewBox="0 0 24 24" aria-hidden="true" class="arrow h-4 w-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  <a href="tel:+61408226842" class="btn inline-flex min-h-12 items-center justify-center gap-2 px-6 py-3 font-semibold transition-colors duration-200 cursor-pointer border-2 border-white text-white hover:bg-white hover:text-ink"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>Call 0408 226 842</a>
 </div>
   </div>
 </section>
-
-<section class="mx-auto max-w-4xl px-5 py-20" aria-labelledby="route">
-  <p class="font-semibold text-accent">The route</p>
-  <h2 id="route" class="mt-2 font-display text-3xl font-extrabold sm:text-5xl">From L plates to P plates</h2>
-  <ol class="road mt-12"><li class="relative pb-14 pl-14 sm:pl-20">
+<div class="relative z-10 mx-auto -mt-16 max-w-6xl px-5"><dl class="grid grid-cols-2 md:grid-cols-4 border border-line bg-panel divide-x divide-line"><div class="border-b border-line md:border-b-0 min-w-0 px-3 py-6 md:px-7"><dt class="text-sm text-muted">Google rating</dt><dd class="mt-1 whitespace-nowrap font-display text-xl sm:text-2xl font-extrabold md:text-3xl">5.0</dd></div><div class="border-b border-line md:border-b-0 min-w-0 px-3 py-6 md:px-7"><dt class="text-sm text-muted">five-star reviews</dt><dd class="mt-1 whitespace-nowrap font-display text-xl sm:text-2xl font-extrabold md:text-3xl">67</dd></div><div class="border-b border-line md:border-b-0 min-w-0 px-3 py-6 md:px-7"><dt class="text-sm text-muted">your instructor</dt><dd class="mt-1 whitespace-nowrap font-display text-xl sm:text-2xl font-extrabold md:text-3xl">David</dd></div><div class="border-b border-line md:border-b-0 min-w-0 px-3 py-6 md:px-7"><dt class="text-sm text-muted">where lessons run</dt><dd class="mt-1 whitespace-nowrap font-display text-xl sm:text-2xl font-extrabold md:text-3xl">Cronulla</dd></div></dl></div>
+<section id="lessons" class="mx-auto max-w-4xl px-5 py-20 md:py-28" aria-labelledby="route-h">
+  <p class="font-semibold uppercase tracking-[0.18em] text-accent">The route</p>
+  <h2 id="route-h" class="mt-3 font-display text-4xl font-extrabold tracking-tight sm:text-6xl">From L plates to P plates</h2>
+  <ol id="reviews" class="road mt-14"><li class="relative pb-16 pl-14 sm:pl-24" data-reveal>
       <span class="stop" aria-hidden="true">1</span>
-      <h3 class="font-display text-2xl font-bold sm:text-3xl">Text David</h3>
-      <p class="mt-2 max-w-xl text-lg text-muted">Send your suburb and when you&#x27;re free. David replies with a lesson time.</p></li><li class="relative pb-14 pl-14 sm:pl-20">
+      <p class="font-semibold uppercase tracking-[0.18em] text-accent">Stop 01</p>
+      <h3 class="mt-1 font-display text-3xl font-extrabold tracking-tight sm:text-4xl">Text David</h3>
+      <p class="mt-3 max-w-xl text-lg text-muted">Send your suburb and when you&#x27;re free. David replies with a lesson time.</p></li><li class="relative pb-16 pl-14 sm:pl-24" data-reveal>
       <span class="stop" aria-hidden="true">2</span>
-      <h3 class="font-display text-2xl font-bold sm:text-3xl">First lesson</h3>
-      <p class="mt-2 max-w-xl text-lg text-muted">Start wherever you&#x27;re at, from never driven to nearly test-ready.</p><blockquote class="mt-5 border-l-4 border-accent pl-4 text-lg leading-relaxed">“He is calm, professional, trustworthy and reliable, and he made the whole experience very reassuring for both my daughter and us as parents.”<footer class="mt-2 text-base text-muted">Alissa B, parent · Google review</footer></blockquote><div class="mt-6 max-w-sm"><img src="img/p1-800.webp" srcset="img/p1-800.webp 800w, img/p1-1600.webp 1600w" sizes="(min-width: 768px) 24rem, 80vw" width="1600" height="2134" alt="A teenager holding his P plate in front of a wall of P plates at Service NSW" class="aspect-[4/5] w-full object-cover" style="object-position:50% 35%" loading="lazy" decoding="async"></div></li><li class="relative pb-14 pl-14 sm:pl-20">
+      <p class="font-semibold uppercase tracking-[0.18em] text-accent">Stop 02</p>
+      <h3 class="mt-1 font-display text-3xl font-extrabold tracking-tight sm:text-4xl">First lesson</h3>
+      <p class="mt-3 max-w-xl text-lg text-muted">Start wherever you&#x27;re at, from never driven to nearly test-ready.</p><figure class="mt-6 border-l-4 border-accent bg-panel p-5"><blockquote class="text-lg leading-relaxed">“He is calm, professional, trustworthy and reliable, and he made the whole experience very reassuring for both my daughter and us as parents.”</blockquote><figcaption class="mt-5 flex items-center gap-3"><span class="grid h-11 w-11 shrink-0 place-items-center rounded-full text-sm font-bold bg-accent text-accent-ink" aria-hidden="true">AB</span><span><span class="block font-semibold">Alissa B, parent</span><span class="block text-sm opacity-80">Google review</span></span></figcaption></figure><div class="mt-7 max-w-sm"><div class="zoom overflow-hidden aspect-[4/5]"><img src="img/p1-800.webp" srcset="img/p1-800.webp 800w, img/p1-1600.webp 1600w" sizes="(min-width: 768px) 24rem, 80vw" width="1600" height="2134" alt="A teenager holding his P plate in front of a wall of P plates at Service NSW" class="h-full w-full object-cover" style="object-position:50% 35%" loading="lazy" decoding="async"></div></div></li><li class="relative pb-16 pl-14 sm:pl-24" data-reveal>
       <span class="stop" aria-hidden="true">3</span>
-      <h3 class="font-display text-2xl font-bold sm:text-3xl">Logbook boost</h3>
-      <p class="mt-2 max-w-xl text-lg text-muted">Under 25? Each 1-hour lesson with a licensed driving instructor counts as 3 hours in your NSW logbook, for up to 10 hours of lessons. That&#x27;s up to 30 logbook hours.</p><blockquote class="mt-5 border-l-4 border-accent pl-4 text-lg leading-relaxed">“He was calm, patient, and made him feel at ease while building his confidence on the road.”<footer class="mt-2 text-base text-muted">Kristie H, parent · Google review</footer></blockquote></li><li class="relative pb-14 pl-14 sm:pl-20">
+      <p class="font-semibold uppercase tracking-[0.18em] text-accent">Stop 03</p>
+      <h3 class="mt-1 font-display text-3xl font-extrabold tracking-tight sm:text-4xl">Logbook boost</h3>
+      <p class="mt-3 max-w-xl text-lg text-muted">Under 25? Each 1-hour lesson with a licensed driving instructor counts as 3 hours in your NSW logbook, for up to 10 hours of lessons. That&#x27;s up to 30 logbook hours.</p><figure class="mt-6 border-l-4 border-accent bg-panel p-5"><blockquote class="text-lg leading-relaxed">“He was calm, patient, and made him feel at ease while building his confidence on the road.”</blockquote><figcaption class="mt-5 flex items-center gap-3"><span class="grid h-11 w-11 shrink-0 place-items-center rounded-full text-sm font-bold bg-accent text-accent-ink" aria-hidden="true">KH</span><span><span class="block font-semibold">Kristie H, parent</span><span class="block text-sm opacity-80">Google review</span></span></figcaption></figure></li><li class="relative pb-16 pl-14 sm:pl-24" data-reveal>
       <span class="stop" aria-hidden="true">4</span>
-      <h3 class="font-display text-2xl font-bold sm:text-3xl">Test day</h3>
-      <p class="mt-2 max-w-xl text-lg text-muted">Practise on the roads around Cronulla until the test feels routine.</p><blockquote class="mt-5 border-l-4 border-accent pl-4 text-lg leading-relaxed">“David was able to provide feedback after each lesson.”<footer class="mt-2 text-base text-muted">Melissa H, parent · Google review</footer></blockquote></li><li class="relative pb-14 pl-14 sm:pl-20">
+      <p class="font-semibold uppercase tracking-[0.18em] text-accent">Stop 04</p>
+      <h3 class="mt-1 font-display text-3xl font-extrabold tracking-tight sm:text-4xl">Test day</h3>
+      <p class="mt-3 max-w-xl text-lg text-muted">Practise on the roads around Cronulla until the test feels routine.</p><figure class="mt-6 border-l-4 border-accent bg-panel p-5"><blockquote class="text-lg leading-relaxed">“David was able to provide feedback after each lesson.”</blockquote><figcaption class="mt-5 flex items-center gap-3"><span class="grid h-11 w-11 shrink-0 place-items-center rounded-full text-sm font-bold bg-accent text-accent-ink" aria-hidden="true">MH</span><span><span class="block font-semibold">Melissa H, parent</span><span class="block text-sm opacity-80">Google review</span></span></figcaption></figure></li><li class="relative pb-16 pl-14 sm:pl-24" data-reveal>
       <span class="stop" aria-hidden="true">5</span>
-      <h3 class="font-display text-2xl font-bold sm:text-3xl">P plates</h3>
-      <p class="mt-2 max-w-xl text-lg text-muted">Drive away on your own.</p><blockquote class="mt-5 border-l-4 border-accent pl-4 text-lg leading-relaxed">“I can&#x27;t thank Dave enough for helping me pass my P&#x27;s test.”<footer class="mt-2 text-base text-muted">Riley P · Google review</footer></blockquote></li></ol>
-</section>
-
-<section class="bg-road py-16 text-white" aria-labelledby="book">
-  <div class="mx-auto grid max-w-6xl gap-10 px-5 md:grid-cols-2">
-    <div>
-      <h2 id="book" class="font-display text-3xl font-extrabold sm:text-5xl">Ready to start?</h2>
-      <p class="mt-4 text-lg text-white">Lessons around Cronulla with David.</p>
-      <div class="flex flex-wrap gap-3 mt-8">
-  <a href="sms:+61408226842?&body=Hi%20David%2C%20I%27d%20like%20to%20book%20a%20driving%20lesson." class="inline-flex min-h-12 items-center justify-center gap-2 px-6 py-3 font-semibold transition-colors duration-200 cursor-pointer bg-white text-ink hover:bg-white/85"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Text David to book</a>
-  <a href="tel:+61408226842" class="inline-flex min-h-12 items-center justify-center gap-2 px-6 py-3 font-semibold transition-colors duration-200 cursor-pointer border-2 border-white hover:bg-white hover:text-ink"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>Call 0408 226 842</a>
-</div>
-      <p class="mt-6"><a href="https://www.google.com/maps/place/Your+Driving+Coach/@-34.0419764,151.1566179,17z/data=!4m8!3m7!1s0x6b12c98d8e250e5d:0x16d5b42dbbcc93f!8m2!3d-34.0419764!4d151.1566179!9m1!1b1!16s%2Fg%2F11x7xsq375?hl=en&amp;entry=ttu&amp;g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D" class="inline-flex min-h-11 items-center gap-2 underline underline-offset-4 font-semibold text-white" rel="noopener">Read all 67 reviews on Google <svg viewBox="0 0 24 24" aria-hidden="true" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
-    </div>
-    <div><h3 class="font-display text-xl font-bold">Hours</h3><div class="mt-4"><dl class="divide-y border-white/25 border-y border-white/25"><div class="flex justify-between gap-4 py-3"><dt class="font-semibold">Lessons</dt><dd class="text-right">Text David for a time</dd></div></dl></div></div>
-  </div>
+      <p class="font-semibold uppercase tracking-[0.18em] text-accent">Stop 05</p>
+      <h3 class="mt-1 font-display text-3xl font-extrabold tracking-tight sm:text-4xl">P plates</h3>
+      <p class="mt-3 max-w-xl text-lg text-muted">Drive away on your own.</p><figure class="mt-6 border-l-4 border-accent bg-panel p-5"><blockquote class="text-lg leading-relaxed">“I can&#x27;t thank Dave enough for helping me pass my P&#x27;s test.”</blockquote><figcaption class="mt-5 flex items-center gap-3"><span class="grid h-11 w-11 shrink-0 place-items-center rounded-full text-sm font-bold bg-accent text-accent-ink" aria-hidden="true">RP</span><span><span class="block font-semibold">Riley P</span><span class="block text-sm opacity-80">Google review</span></span></figcaption></figure></li></ol>
+  <p class="pl-14 sm:pl-24"><a href="https://www.google.com/maps/place/Your+Driving+Coach/@-34.0419764,151.1566179,17z/data=!4m8!3m7!1s0x6b12c98d8e250e5d:0x16d5b42dbbcc93f!8m2!3d-34.0419764!4d151.1566179!9m1!1b1!16s%2Fg%2F11x7xsq375?hl=en&amp;entry=ttu&amp;g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D" class="link inline-flex min-h-11 items-center gap-2 underline underline-offset-4 font-semibold text-accent" rel="noopener">Read all 67 reviews on Google <svg viewBox="0 0 24 24" aria-hidden="true" class="arrow h-4 w-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
 </section>
 </main>
-<footer class="bg-road text-white border-t border-white/15">
-  <div class="mx-auto flex max-w-6xl flex-col gap-4 px-5 py-10 sm:flex-row sm:items-end sm:justify-between">
-    <div>
-      <p class="font-display text-xl">Your Driving Coach</p>
-      <p class="mt-1">Driving lessons in Cronulla, Sydney · <a class="underline underline-offset-4" href="tel:+61408226842">0408 226 842</a></p>
+<section id="book" class="bg-road text-white" aria-labelledby="book-h" data-reveal>
+  <div class="mx-auto max-w-6xl px-5 py-20 md:py-28">
+    <p class="font-semibold uppercase tracking-[0.18em] text-white">Book a lesson</p>
+    <h2 id="book-h" class="mt-4 font-display leading-[0.92] tracking-tight text-[clamp(3rem,10vw,8.5rem)] font-extrabold">Start with David.</h2>
+    <div class="mt-10 grid gap-10 md:grid-cols-2 md:items-end">
+      <div>
+        <p class="max-w-md text-lg">Text your suburb and when you're free. David replies with a lesson time.</p>
+        <div class="flex flex-wrap gap-3 mt-8">
+  <a href="sms:+61408226842?&body=Hi%20David%2C%20I%27d%20like%20to%20book%20a%20driving%20lesson." class="btn inline-flex min-h-12 items-center justify-center gap-2 px-6 py-3 font-semibold transition-colors duration-200 cursor-pointer bg-white text-ink hover:bg-white/85"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Text David to book<svg viewBox="0 0 24 24" aria-hidden="true" class="arrow h-4 w-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  <a href="tel:+61408226842" class="btn inline-flex min-h-12 items-center justify-center gap-2 px-6 py-3 font-semibold transition-colors duration-200 cursor-pointer border-2 border-white hover:bg-white hover:text-ink"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>Call 0408 226 842</a>
+</div>
+      </div>
+      <div><p class="font-semibold">Lesson hours</p><div class="mt-3"><dl class="divide-y border-white/25 border-y border-white/25"><div class="flex justify-between gap-4 py-3"><dt class="font-semibold">Lessons</dt><dd class="text-right">Text David for a time</dd></div></dl></div></div>
     </div>
-    <p class="text-sm opacity-80">Website preview by Sydney AI Studio</p>
+  </div>
+</section>
+<footer class="bg-road text-white">
+  <div class="mx-auto max-w-6xl px-5 pt-14">
+    <div class="grid gap-8 border-b border-white/20 pb-10 sm:grid-cols-3">
+      <div><p class="text-sm font-semibold uppercase tracking-widest opacity-80">Contact</p>
+        <p class="mt-3"><a class="link inline-flex min-h-11 items-center underline underline-offset-4" href="tel:+61408226842">0408 226 842</a></p>
+        <p><a class="link inline-flex min-h-11 items-center underline underline-offset-4" href="sms:+61408226842?&body=Hi%20David%2C%20I%27d%20like%20to%20book%20a%20driving%20lesson.">Text David</a></p></div>
+      <div><p class="text-sm font-semibold uppercase tracking-widest opacity-80">Hours</p>
+        <p class="mt-3">Lessons<br>Text David for a time</p></div>
+      <div><p class="text-sm font-semibold uppercase tracking-widest opacity-80">Area</p>
+        <p class="mt-3">Driving lessons in Cronulla, Sydney</p>
+        <p><a class="link inline-flex min-h-11 items-center underline underline-offset-4" href="https://www.google.com/maps/place/Your+Driving+Coach/@-34.0419764,151.1566179,17z/data=!4m8!3m7!1s0x6b12c98d8e250e5d:0x16d5b42dbbcc93f!8m2!3d-34.0419764!4d151.1566179!9m1!1b1!16s%2Fg%2F11x7xsq375?hl=en&amp;entry=ttu&amp;g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D" rel="noopener">Google reviews</a></p></div>
+    </div>
+    <p class="wordmark select-none py-8 font-display leading-[0.8] tracking-tight text-white text-[clamp(3.2rem,11vw,10rem)]" aria-hidden="true">Your Driving Coach</p>
+    <div class="flex flex-col gap-2 border-t border-white/20 py-6 text-sm sm:flex-row sm:justify-between">
+      <p>© 2026 Your Driving Coach</p><p>Website preview by Sydney AI Studio</p>
+    </div>
   </div>
 </footer>
 <div class="fixed inset-x-0 bottom-0 z-40 grid grid-cols-2 border-t md:hidden border-line bg-paper text-ink" style="padding-bottom:env(safe-area-inset-bottom)">
   <a href="tel:+61408226842" class="flex min-h-14 items-center justify-center gap-2 font-semibold"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>Call</a>
   <a href="sms:+61408226842?&body=Hi%20David%2C%20I%27d%20like%20to%20book%20a%20driving%20lesson." class="flex min-h-14 items-center justify-center gap-2 font-semibold sticky-primary"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Text David</a>
 </div>
+<script>
+(function(){var els=document.querySelectorAll('[data-reveal]');
+if(!('IntersectionObserver' in window)){els.forEach(function(el){el.classList.add('in')});return}
+var fired=false;var io=new IntersectionObserver(function(es){fired=true;es.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}})},{rootMargin:'0px 0px 10% 0px'});
+els.forEach(function(el){io.observe(el)});
+setTimeout(function(){if(!fired)els.forEach(function(el){el.classList.add('in')})},1500);})();
+</script>
 </body>
 </html>
